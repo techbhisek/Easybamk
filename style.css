@@ -31,9 +31,12 @@ ul {
   padding: 0px;
 }
 .display-img > img {
-  width: 20em;
+  width: 100%;
   position: relative;
-  bottom: 8em;
+  bottom: 7.2em;
+}
+.next {
+  margin-top: -8em;
 }
 .request {
   border: none;
@@ -50,9 +53,11 @@ ul {
 .main_heading {
   padding: 20px;
   font-size: 2em;
+  font-weight: 400;
 }
 #heading {
   font-size: 2em;
+  margin-top: 20px;
 }
 
 .centre-para {
@@ -60,25 +65,37 @@ ul {
   padding: 50px 5px;
   line-height: 1.5em;
 }
+.articles {
+  background: hsl(210, 17%, 98%);
+}
 .contain-article {
-  width: 80vw;
+  width: 90vw;
+  background: white;
   margin: 50px auto;
   text-align: left;
+  color: hsl(0, 1%, 30%);
+  line-height: 1em;
+  padding-bottom: 20px;
 }
 .contain-article > img {
-  width: 80vw;
+  width: 90vw;
   height: auto;
   padding-bottom: 20px;
   border-radius: 5px 5px 0px 0px;
 }
 .info {
+  font-size: small;
   margin: 0px 20px;
+  color: hsl(0, 1%, 30%);
+}
+.info > p {
+  color: hsl(233, 8%, 62%);
 }
 
 .why_choose {
   width: 90vw;
   padding: 0px 15px;
-  background: hsl(220, 16%, 96%);
+  background: hsl(210, 17%, 98%);
 }
 footer {
   color: white;
@@ -97,6 +114,9 @@ footer {
 }
 .logo > img {
   margin: 0px 10px;
+}
+h2 {
+  font-weight: 300;
 }
 
 ul {
@@ -120,5 +140,8 @@ ul > li {
   border-radius: 5px;
 }
 .nav:hover {
-  background-color: aqua;
+  background-color: hsl(233, 8%, 62%);
+}
+#icon {
+  margin: 20px 0px;
 }
