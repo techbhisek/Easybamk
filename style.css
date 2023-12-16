@@ -24,16 +24,16 @@ ul {
 .display-img {
   background: url(./images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top right;
   background-size: contain;
   overflow: hidden;
   margin: 0px;
   padding: 0px;
 }
 .display-img > img {
-  width: 100%;
+  width: 100vw;
   position: relative;
-  bottom: 7.2em;
+  bottom: 8.5em;
 }
 .next {
   margin-top: -8em;
@@ -51,22 +51,31 @@ ul {
   color: whitesmoke;
 }
 .main_heading {
-  padding: 20px;
   font-size: 2em;
   font-weight: 400;
+  color: hsl(0, 1%, 30%);
+}
+.sub-heading {
+  font-weight: 300;
+  color: hsl(0, 1%, 30%);
 }
 #heading {
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 20px;
 }
 
 .centre-para {
-  color: hsl(0, 1%, 30%);
-  padding: 50px 5px;
+  color: #9698a6;
+  padding: 10px 20px;
   line-height: 1.5em;
+}
+.heading-para {
+  text-align: justify;
+  padding: 0px 30px 20px 30px;
 }
 .articles {
   background: hsl(210, 17%, 98%);
+  margin-top: 100px;
 }
 .contain-article {
   width: 90vw;
@@ -94,8 +103,13 @@ ul {
 
 .why_choose {
   width: 90vw;
-  padding: 0px 15px;
+  padding: 20px 15px;
   background: hsl(210, 17%, 98%);
+  margin-top: 100px;
+}
+.why_choose > h1 {
+  font-weight: 400;
+  font-size: 3em;
 }
 footer {
   color: white;
@@ -105,6 +119,7 @@ footer {
   margin: 0px;
   flex-direction: column;
   align-items: space-between;
+  padding-bottom: 100px;
 }
 .logo {
   display: flex;
@@ -112,6 +127,7 @@ footer {
   justify-content: center;
   margin: 10px 0px;
 }
+
 .logo > img {
   margin: 0px 10px;
 }
@@ -123,7 +139,9 @@ ul {
   margin-top: 20px;
 }
 ul > li {
-  margin: 10px 0px;
+  margin: 20px 0px;
+  list-style-type: none;
+  font-size: 18px;
 }
 .copy {
   margin: 20px 0px;
@@ -134,7 +152,7 @@ ul > li {
   z-index: 1;
   background-color: white;
   width: 90vw;
-  top: 60px;
+  top: 100px;
   left: 5vw;
   transition: 1s;
   border-radius: 5px;
