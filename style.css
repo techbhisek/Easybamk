@@ -172,9 +172,6 @@ ul > div > div > li {
   left: 2.75vw;
   transition: 1s;
 }
-.nav:hover {
-  background-color: hsl(233, 8%, 62%);
-}
 .nav {
   list-style-type: none;
   margin-block: 20px;
