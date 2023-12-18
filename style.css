@@ -198,7 +198,7 @@ ul > div > div > li {
 }
 
 /* DESKTOP VIEW */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 801px) {
   #desktop {
     display: inline;
     margin-right: 10vw;
