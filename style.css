@@ -1,3 +1,4 @@
+/* MOBILE VIEW */
 #head {
   height: 1em;
   background: hsl(0, 0%, 98%);
@@ -195,6 +196,7 @@ ul > div > div > li {
   margin: 20px 0px;
 }
 
+/* DESKTOP VIEW */
 @media screen and (min-width: 1000px) {
   #desktop {
     display: inline;
@@ -211,7 +213,8 @@ ul > div > div > li {
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-    z-index: 10;
+    position: relative;
+    z-index: 1;
   }
   .nav-body {
     width: 50vw;
@@ -251,7 +254,6 @@ ul > div > div > li {
     background-size: cover;
     background-position-x: 10vw;
     background-position-y: -12vw;
-    z-index: 1;
     overflow: visible;
     margin-right: -50px;
   }
@@ -268,12 +270,10 @@ ul > div > div > li {
     height: 70vh;
     overflow-y: hidden;
     position: relative;
-    z-index: -1;
     background: none;
     overflow: visible;
   }
   #mockup {
-    z-index: 3;
     width: 45vw;
     position: absolute;
     top: -15vh;
@@ -296,10 +296,12 @@ ul > div > div > li {
     width: 400px;
   }
   #but {
-    margin-top: 10px;
+    margin-top: 20px;
   }
-  .main_heading {
+  .main_heading:nth-child(2) {
     position: relative;
+    margin-top: 10vw;
+    font-size: 2.5em;
   }
   .why_choose {
     width: 100vw;
@@ -307,9 +309,10 @@ ul > div > div > li {
     flex-direction: column;
     padding-left: 50px;
     position: relative;
-    z-index: initial;
-    background: hsl(210, 17%, 98%);
-    background: transparent;
+    z-index: -1;
+    background: hsl(0, 0, 98%);
+    margin-top: 0px;
+    /* background: transparent; */
   }
   .choose-container {
     position: relative;
@@ -317,7 +320,8 @@ ul > div > div > li {
     flex-direction: row;
     width: 100vw;
     flex-flow: 50px;
-    margin: 50px 20px;
+    margin-top: 50px;
+    margin-left: 4vw;
   }
   .why_choose > .choose-container > div {
     width: 15vw;
@@ -335,7 +339,7 @@ ul > div > div > li {
   #choose-main {
     width: 30vw;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 6vw;
     z-index: -1;
   }
   .articles {
@@ -351,21 +355,22 @@ ul > div > div > li {
   .article-container {
     width: 90vw;
     margin-top: 0px;
-    margin-left: 70px;
+    margin-left: 8vw;
     display: flex;
     flex-direction: row;
     justify-items: center;
   }
-  .contain-article > img,
-  .contain-article {
-    width: 20vw;
+  .contain-article > img {
+    height: 25vh;
+    width: 18vw;
   }
   .contain-article {
-    width: 20vw;
+    width: 18vw;
     margin: 0px 1vw;
   }
   #head1 {
-    margin-left: 100px;
+    margin-left: 9vw;
+    margin-top: 100px;
   }
 
   .info {
@@ -435,6 +440,7 @@ ul > div > div > li {
   }
 }
 
+/* TABLET VIEW */
 @media screen and (min-width: 500px) and (max-width: 1000px) {
   .next {
     width: 80vw;
