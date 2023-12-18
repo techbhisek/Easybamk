@@ -198,7 +198,7 @@ ul > div > div > li {
 }
 
 /* DESKTOP VIEW */
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1000px) {
   #desktop {
     display: inline;
     margin-right: 10vw;
@@ -454,7 +454,7 @@ ul > div > div > li {
 }
 
 /* TABLET VIEW */
-@media screen and (min-width: 500px) and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 1000px) {
   .next {
     width: 80vw;
     margin-inline: auto;
