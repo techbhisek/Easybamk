@@ -313,10 +313,10 @@ ul > div > div > li {
     flex-direction: row;
     width: 100vw;
     flex-flow: 50px;
-    margin: 50px 0px;
+    margin: 50px 20px;
   }
   .why_choose > .choose-container > div {
-    width: 200px;
+    width: 15vw;
     text-align: left;
     margin: 0px 30px;
     z-index: 1;
@@ -341,20 +341,22 @@ ul > div > div > li {
     align-items: flex-start;
     padding: 0px;
     background-color: white;
+    margin-bottom: 50px;
   }
   .article-container {
     width: 90vw;
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 70px;
     display: flex;
     flex-direction: row;
     justify-items: center;
   }
   .contain-article > img,
   .contain-article {
-    width: 200px;
+    width: 15vw;
   }
   .contain-article {
-    width: 200px;
+    width: 15vw;
     margin: 0px 30px;
   }
   #head1 {
@@ -363,7 +365,7 @@ ul > div > div > li {
 
   .info {
     text-align: left;
-    padding-right: 20px;
+    padding-right: 10px;
   }
   footer {
     display: flex;
