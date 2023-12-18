@@ -92,6 +92,7 @@ ul {
 .articles {
   background: hsl(210, 17%, 98%);
   margin-top: 100px;
+  padding-top: 30px;
 }
 .contain-article {
   width: 300px;
@@ -295,6 +296,9 @@ ul > div > div > li {
     font-size: 3em;
     width: 400px;
   }
+  #heading-text {
+    font-size: 18px;
+  }
   #but {
     margin-top: 20px;
   }
@@ -329,10 +333,10 @@ ul > div > div > li {
     z-index: 1;
   }
   .centre-para {
-    font-size: small;
     margin-left: 0px;
     padding: 0px;
     text-align: left;
+    font-size: 18px;
   }
 
   #choose-main {
