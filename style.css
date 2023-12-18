@@ -425,6 +425,7 @@ ul > div > div > li {
     border-image-slice: 1;
     width: 100%;
     color: black;
+    cursor: pointer;
   }
 
   .logo-hover:hover {
@@ -437,7 +438,6 @@ ul > div > div > li {
 
   ul > div > div > li:hover {
     color: hsl(136, 65%, 51%);
-
     cursor: pointer;
   }
   .request:hover {
@@ -449,6 +449,7 @@ ul > div > div > li {
   }
   .article-heading:hover {
     color: hsl(136, 65%, 51%);
+    cursor: pointer;
   }
 }
 
