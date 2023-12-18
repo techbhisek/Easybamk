@@ -454,7 +454,7 @@ ul > div > div > li {
 }
 
 /* TABLET VIEW */
-@media screen and (min-width: 750px) and (max-width: 999px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
   .next {
     width: 80vw;
     margin-inline: auto;
