@@ -11,6 +11,10 @@
     hsl(192, 70%, 51%)
   );
 }
+*::selection {
+  background-color: hsl(136, 65%, 51%);
+  color: white;
+}
 #desktop {
   display: none;
 }
@@ -27,6 +31,7 @@ body {
   font-family: 'Public Sans', sans-serif;
   overflow-x: hidden;
 }
+
 ul {
   text-decoration: none;
   padding: 0px;
@@ -190,18 +195,17 @@ ul > div > div > li {
   margin: 20px 0px;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1000px) {
   #desktop {
     display: inline;
-    margin-right: 100px;
+    margin-right: 10vw;
   }
   .request {
     width: 200px;
   }
   #logo {
-    margin: 100px;
+    margin: 10vw;
   }
-
   header {
     display: flex;
     width: 100vw;
@@ -245,8 +249,8 @@ ul > div > div > li {
     background: url('./images/bg-intro-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 10em;
-    background-position-y: -13em;
+    background-position-x: 10vw;
+    background-position-y: -12vw;
     z-index: 1;
     overflow: visible;
     margin-right: -50px;
@@ -261,7 +265,7 @@ ul > div > div > li {
     flex-direction: row;
     justify-content: space-around;
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     overflow-y: hidden;
     position: relative;
     z-index: -1;
@@ -270,10 +274,10 @@ ul > div > div > li {
   }
   #mockup {
     z-index: 3;
-    width: 80vh;
+    width: 45vw;
     position: absolute;
-    top: -110px;
-    right: -20px;
+    top: -15vh;
+    right: -12vh;
   }
   .next {
     order: -1;
@@ -340,8 +344,9 @@ ul > div > div > li {
     justify-items: flex-start;
     align-items: flex-start;
     padding: 0px;
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   .article-container {
     width: 90vw;
@@ -353,11 +358,11 @@ ul > div > div > li {
   }
   .contain-article > img,
   .contain-article {
-    width: 15vw;
+    width: 20vw;
   }
   .contain-article {
-    width: 15vw;
-    margin: 0px 30px;
+    width: 20vw;
+    margin: 0px 1vw;
   }
   #head1 {
     margin-left: 100px;
@@ -387,7 +392,8 @@ ul > div > div > li {
     margin: 15px 0px;
   }
   .copy {
-    margin: 15px 0px;
+    margin: 15px;
+    margin-left: -10px;
   }
 
   .nav:hover {
@@ -408,18 +414,61 @@ ul > div > div > li {
     fill: hsl(136, 65%, 51%);
     cursor: pointer;
   }
+  ul > div > div > li {
+    color: hsl(0, 0%, 98%);
+  }
+
   ul > div > div > li:hover {
-    color: hsl(160, 65%, 51%);
+    color: hsl(136, 65%, 51%);
 
     cursor: pointer;
   }
   .request:hover {
     cursor: pointer;
+    opacity: 0.7;
   }
   #but:hover {
     cursor: pointer;
   }
   .article-heading:hover {
-    color: hsl(172, 70%, 51%);
+    color: hsl(136, 65%, 51%);
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .next {
+    width: 80vw;
+    margin-inline: auto;
+  }
+  .article-container {
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+  }
+  .footer-center {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer-left,
+  .footer-right {
+    margin-top: 25px;
+  }
+  #button {
+    margin: 15px 0px;
+  }
+  .copy {
+    margin: 15px;
+    margin-left: -10px;
   }
 }
