@@ -314,8 +314,9 @@ ul > div > div > li {
     padding-left: 50px;
     position: relative;
     z-index: -1;
-    background: hsl(0, 0, 98%);
-    margin-top: 0px;
+    background: hsl(220, 13%, 95%);
+    margin: 0px;
+    padding-bottom: 50px;
   }
   .choose-container {
     position: relative;
@@ -340,7 +341,7 @@ ul > div > div > li {
   }
 
   #choose-main {
-    width: 30vw;
+    width: 40vw;
     text-align: left;
     margin-left: 6vw;
     z-index: -1;
@@ -350,10 +351,10 @@ ul > div > div > li {
     flex-direction: column;
     justify-items: flex-start;
     align-items: flex-start;
-    padding: 0px;
     background-color: hsl(0, 0%, 98%);
     margin-bottom: 50px;
     padding-bottom: 50px;
+    margin-top: 0px;
   }
   .article-container {
     width: 90vw;
@@ -388,20 +389,28 @@ ul > div > div > li {
   }
   .footer-center {
     width: 25vw;
+    text-align: left;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
   .footer-left,
   .footer-right {
+    text-align: left;
     margin-top: 25px;
+    text-align: center;
   }
+
   #button {
     margin: 15px 0px;
   }
   .copy {
     margin: 15px;
-    margin-left: -10px;
+    margin-left: -50px;
+  }
+  .para {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .nav:hover {
